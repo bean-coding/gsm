@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {background-image: url("https://i.imgur.com/2RFOgol.gif"), url("https://i.imgur.com/eIAIwLM.jpg");
+    background-size: 20%, cover;
+    background-position: left top, center;
+    background-repeat: repeat, no-repeat;
+font-family: 'STIX Two Text', serif;}
+
+
+h1 {color: #0F161D;font-size: 48px;text-align: center;font-family: 'Cinzel', serif;}
+h2 {color: #0F161D;font-size: 30px;font-family: 'Cinzel', serif;}
+h3 {color: #fff !important;font-size: 24px !important;font-family: 'Cinzel', serif;text-align: center;}
+
+#main h1:hover{letter-spacing:2px;text-shadow:0 0 5px #ACA7AB;transition-duration: 2s;}
+
+#header .navbar-main {
+background-color:rgba(15, 22, 29,.4)!important;
+background-image:url(https://i.imgur.com/RJnt5kF.png)!important;
+border: 0px solid #000;
+Border-radius:10px 10px 0 0;
+box-shadow:0 0 4px #000;
+border-radius: 10px 10px 0 0;
+font-style: italic !important;
+text-transform: lowercase !important;}
+
+.navbar-main{border-top:none!important;padding-right:0!important;}
+
+.navbar-main .nav-link{border-radius:5px;margin-top:5px;padding:7px 10px!important;text-align:center;font-size: .8rem !important;}
+
+.navbar-main .nav-item a{margin-right:5px;}
+
+.navbar-main .nav-link,.navbar-main .nav-link .fa{transition:.5s ease;}
+
+.navbar-main .nav-link{background:#45534C!important;box-shadow:0 0 5px #000;}
+
+.navbar-main .nav-link:hover{box-shadow:0 0 5px #fff;}
+
+#header .navbar-status {
+background-color: rgba(69, 83, 76, 0.8);
+color: black;
+border: 1px solid black;
+}
+
+#sidebar,#main,.breadcrumb-nav{background:transparent!important;}
+
+#main,.navbar-main{background-color:rgba(69, 83, 76,.4)!important;
+background-image:url(https://i.imgur.com/RJnt5kF.png)!important;
+border:1px solid #000;border-radius:0;box-shadow:0 0 4px #000;}
+
+.nav-tabs {
+border-bottom: 0px solid rgba(204, 88, 3, 0.8);
+color: rgba(204, 88, 3, 0.8);
+justify-content:center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: #ffffff;
+background-color: rgba(69, 83, 76, 0.8);
+border-radius: 10px;
+border: 0px;
+}
+
+.table {
+border: 0px solid #636363
+}
+
+.table {
+color: black;
+border: 0px solid #fffffff;
+background-color: rgba(69, 83, 76, 0.9);
+border-radius: 10px 10px 10px 10px;
+}
+
+.table th {
+color: white;
+background-color: rgba(15, 22, 29, 0.6);
+border-radius: 10px 10px 0px 0px;
+}
+
+.table .subheader {
+color: white;
+background-color: rgba(15, 22, 29, 0.4);
+}
+
+.table .left {
+background-color: rgba(15, 22, 29, 0.4);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(15, 22, 29, 0.2);
+}
+
+.table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background-color: rgba(111, 122, 94, 0.5);
+}
+
+#main .card {
+background-color: rgba(111, 122, 94, 0.4);
+border-radius: 10px 10px 10px 10px; 
+}
+
+.card-img-top {
+border-radius: 10px 10px 0 0;
+}
+
+.card-header {
+border-bottom: 0px solid #636363;
+}
+
+#sidebar .card {
+border-radius: 0px;
+background-color: rgba(69, 83, 76, 0.9);
+border-bottom: 8px #0F161D;
+border: 1px solid black;
+box-shadow:0 0 4px #000;
+color: black;
+}
+
+.bg-warning {
+background-color: #6F7A5E !important;
+}
+
+.bg-primary {
+background-color: #6F7A5E !important;
+}
+
+.bg-danger {
+background-color: #6F7A5E !important;
+}
+
+.bg-info {
+background-color: #6F7A5E !important;
+}
+
+.bg-success {
+background-color: #6F7A5E !important;
+}
+
+.Progress {
+background-color: rgba(75,67,90, 0.1) !important;
+}
+
+.border-none .card img{
+    border-radius: 50% 0% 50% 0%;
+}
+
+.featured-wolf img{
+border-radius: 50% 0% 50% 0%;
+}
+
+div.w-50 > div {
+    border: none!important;
+}
+
+#sidebar #card-user a img {
+border-radius: 50% 0% 50% 0%!important;
+}
+
+.border-bottom {
+border-bottom: 0px solid black!important;
+}
+
+.alert-success, .alert-info, .alert-danger, .alert-primary {
+color: #000000;
+background-color: #6F7A5E;
+border-radius: 10px;
+border: 1px solid black;
+box-shadow:0 0 4px #000;
+}
+
+a:link, a:visited {color: #ACA7AB !important;}
+a:hover {color: #6F7A5E !important;}
+
+.table .bottom, .table tfoot td {
+color: white;
+background-color: #6F7A5E;
+text-align: center;
+}
+
+#main .btn,#sidebar .btn,.btn-primary{
+background:#0F161D!important;
+border:none;
+border-radius:5px;
+color:#fff!important;
+transition:.5s ease;}
+
+#main .btn:hover,#sidebar .btn:hover,.btn-primary:hover{
+box-shadow:0 0 5px #fff;
+text-decoration:none!important;
+color:#6F7A5E!important;}
+
+.s-chat-message:nth-child(odd) {
+background: #45534C !important;
+}
+
+.s-chat-message:nth-child(even) {
+background: #6F7A5E !important;
+}
+
+body, a:hover {
+cursor: url('https://cur.cursors-4u.net/nature/nat-9/nat839.cur'), progress;
+}
+
+.Box1 {background: rgba(15, 22, 29,0.6);border: 0px solid black;border-radius: 10px;margin: auto;float: center;height: 100px;width: 700px;padding: 2px;overflow: auto;transition: 1.5s}
+.Box2 {background: rgba(15, 22, 29,0.6);border: 0px solid black;border-radius: 10px;margin: 55px;float: left;height: 100px;width: 300px;padding: 2px;overflow: auto;transition: 1.5s}
+.Box3 {background: rgba(15, 22, 29,0.6);border: 0px solid black;border-radius: 10px;margin: 55px;float: right;height: 100px;width: 300px;padding: 2px;overflow: auto;transition: 1.5s}
+.Box4 {background: rgba(15, 22, 29,0.6);border: 0px solid black;border-radius: 10px;margin: 55px;float: left;height: 500px;width: 300px;padding: 2px;overflow: auto;transition: 1.5s}
+
+.Box1:hover, .Box2:hover,.Box3:hover {height: 400px}
+
+::-webkit-scrollbar {width: 12px;height: 12px;}
+::-webkit-scrollbar-track {background: #6F7A5E;box-shadow: inset 0 0 10px transparent;border-radius: 20px;}
+::-webkit-scrollbar-thumb {border-radius: 0px;background: #6F7A5E;}
+
+
+
+
+.fogbox {
+display: flex;
+position: fixed;
+left: 0;
+bottom:0px;
+width: 120%;
+pointer-events: none;
+
+}
+
+.fog {
+opacity: 100%;
+min-width: 1800px;
+position: relative;
+animation-name: fog;
+animation-duration: 8s; 
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes fog {
+    from {right: 0px;}
+    to {right: 50px; }
+  }
+
+.bg-light {
+background-color:rgba(15, 22, 29,.4)!important;
+}
+
+.bg-dark {
+background-color:rgba(15, 22, 29,.8)!important;
+}
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
